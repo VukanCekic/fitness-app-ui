@@ -1,0 +1,17 @@
+.pagination{
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a{
+        width: 200px;
+        padding: 10px;
+        border: 1px solid $white;
+    }
+
+    .active{
+        color: $black;
+        background-color: $white;
+    }
+}

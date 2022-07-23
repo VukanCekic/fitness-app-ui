@@ -1,0 +1,45 @@
+.card{
+    position: relative;
+    width: 400px;
+    height: 350px;
+    background: $white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: inset -10px -10px 15px rgba(255, 255, 255, 0.5), 
+    inset 10px 10px 15px rgba(70, 70, 70, 0.12);
+
+    h4{
+        height: 20px;
+        margin-bottom: 10%;
+        text-align: center;
+    }
+
+    h4, p{
+        color: $black;
+    }
+
+    &__description{
+        height: 70px;
+        margin-bottom: 25%;
+    }
+    button{
+        font-size: 12.5px;
+        padding: 10px;
+
+        &:disabled{
+            background-color: gray;
+            border-color: gray;
+        }
+    }
+}
+
+.no_content{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: $white;
+
+}

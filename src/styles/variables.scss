@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+$ff-poppins: "Poppins", sans-sarif;
+
+$fs-heading: 70px;
+$fs-1: 46px;
+$fs-2: 40px;
+$fs-3: 34px;
+$fs-4: 30px;
+$fs-5: 24px;
+
+$fw-700: 700;
+$fw-600: 600;
+$fw-500: 500;
+
+$transition: 0.25s ease-in-out;
+
+// Formats like RGB and Hex are more machine-readable than human-readable.
+//  HSL, the opposite, is meant to be understandable by humans better.
+//  HSL is a more recent and spontaneous way to work with colors.
+
+
+$white: hsl(0, 0%, 100%);
+$black: hsl(0, 0%, 0%);
+
+$lapis-lazuli: hsla(210, 50%, 40%, 1);
+$dark-sky-blue: hsla(201, 51%, 69%, 1);
+$charcoal: hsla(203, 30%, 26%, 1);
+$granny-smith-apple: hsla(112, 60%, 74%, 1);
+$nyanza: hsla(124, 64%, 91%, 1);
+
+
+
